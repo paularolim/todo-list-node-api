@@ -1,8 +1,7 @@
 /* eslint-disable no-console */
 import express, { Request, Response } from 'express';
-import { env } from 'process';
 
-const port = 3000 || env.PORT;
+const port = process.env.PORT || 3000;
 
 const app = express();
 
