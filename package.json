@@ -4,6 +4,8 @@
   "description": "",
   "main": "build/main/index.js",
   "scripts": {
+    "start": "node ./build/main/index.js",
+    "postinstall": "tsc",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
